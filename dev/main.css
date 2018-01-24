@@ -1,0 +1,45 @@
+[v-cloak] {
+  display: none;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+.strong {
+  font-weight: bolder;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.center-div {
+  margin: auto;
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content-minor {
+  padding: 5px;
+}
+
+.pad-right {
+  padding-right: 5px;
+}
+
+.fullwidth {
+  width: 100%
+}
+

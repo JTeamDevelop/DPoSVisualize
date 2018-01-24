@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DPOS Visualization">
+    <meta name="keywords" content="HTML,JavaScript">
+    <title>DPOS Visualization</title>
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.2/noty.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="dev/main.css">
+  <body>
+    <div id="app">
+      <h1 class="center">Delegated Proof of Stake (DPoS) Visualization</h1>
+      <h3 class="center"><a v-bind:href="netLink">{{netName}}</a></h3>
+      <div class="center">
+        <svg width="800" height="800" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script data-main="dev/app.js" src="require.js"></script>
+</html>
